@@ -81,9 +81,23 @@ public class loginStepDefinition
 		Thread.sleep(5000);
 	}
 	
+	@Then("^user click on Deals option from options$")
+	public void click_on_Deals_Option() throws InterruptedException 
+	{
+		driver.findElement(By.xpath("//a//*[contains(text(),'Deals')]")).click();
+		Thread.sleep(5000);
+	}
+	
 	
 	@Then("^user click on New button to create contact$")
 	public void click_on_new_button_to_create_new_contact() throws InterruptedException 
+	{
+		driver.findElement(By.xpath("//a//*[contains(text(),'New')]")).click();
+		Thread.sleep(5000);
+	}
+	
+	@Then("^user click on New button to create deal$")
+	public void click_on_new_button_to_create_new_deal() throws InterruptedException 
 	{
 		driver.findElement(By.xpath("//a//*[contains(text(),'New')]")).click();
 		Thread.sleep(5000);
@@ -96,6 +110,20 @@ public class loginStepDefinition
 		Assert.assertTrue(present);
 		driver.findElement(By.name("first_name")).sendKeys(firstname);
 		driver.findElement(By.name("last_name")).sendKeys(lastname);
+		Thread.sleep(5000);
+	}
+	
+	@Then("^user enters deals details \"(.*)\" and \"(.*)\" and \"(.*)\"$")
+	public void enter_new_deals_details(String title, String probability, String commission) throws InterruptedException 
+	{
+		
+		
+		Boolean present = driver.findElement(By.name("title")).isDisplayed();
+		Assert.assertTrue(present);
+		driver.findElement(By.name("title")).sendKeys(title);
+		driver.findElement(By.name("probability")).sendKeys(probability);
+		driver.findElement(By.name("commission")).sendKeys(commission);
+		
 		Thread.sleep(5000);
 	}
 	
