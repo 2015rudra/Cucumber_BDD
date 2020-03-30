@@ -7,13 +7,12 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "D:\\Practise\\CucumberBDD\\src\\main\\java\\Features\\Contact.feature"
+		features = "D:\\Practise\\CucumberBDD\\src\\main\\java\\Features\\deals.feature"
 		,glue = {"stepDefinition"},
 		format = {"pretty","html:test-output", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"},
-		dryRun = true,
+		dryRun = false,
 		monochrome = true,
-		strict = true
-		
+		strict = true		
 		)
 
 
