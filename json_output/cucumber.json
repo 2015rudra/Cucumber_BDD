@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9893143400,
+              "duration": 17929455900,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 10029054700,
+              "duration": 10022209900,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1171521000,
+              "duration": 386635300,
               "status": "passed"
             },
             "line": 7,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 20243573700,
+              "duration": 20145534100,
               "status": "passed"
             },
             "line": 8,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 184254400,
+              "duration": 111381100,
               "status": "passed"
             },
             "line": 9,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 5149667700,
+              "duration": 5110155400,
               "status": "passed"
             },
             "line": 10,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 5595152400,
+              "duration": 5424641100,
               "status": "passed"
             },
             "line": 11,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 5414178100,
+              "duration": 5223185800,
               "status": "passed"
             },
             "line": 12,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 3198322100,
+              "duration": 3128321900,
               "status": "passed"
             },
             "line": 13,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 786004200,
+              "duration": 691336300,
               "status": "passed"
             },
             "line": 14,
@@ -162,7 +162,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8157292200,
+              "duration": 13718754000,
               "status": "passed"
             },
             "line": 5,
@@ -174,7 +174,7 @@
           },
           {
             "result": {
-              "duration": 10019183000,
+              "duration": 10015063600,
               "status": "passed"
             },
             "line": 6,
@@ -186,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 1195673400,
+              "duration": 307669600,
               "status": "passed"
             },
             "line": 7,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 20260098500,
+              "duration": 20071346200,
               "status": "passed"
             },
             "line": 8,
@@ -220,7 +220,7 @@
           },
           {
             "result": {
-              "duration": 115477200,
+              "duration": 62404800,
               "status": "passed"
             },
             "line": 9,
@@ -232,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 5245961200,
+              "duration": 5109616500,
               "status": "passed"
             },
             "line": 10,
@@ -244,7 +244,7 @@
           },
           {
             "result": {
-              "duration": 5494259300,
+              "duration": 5377381500,
               "status": "passed"
             },
             "line": 11,
@@ -256,7 +256,7 @@
           },
           {
             "result": {
-              "duration": 5663761500,
+              "duration": 5245151600,
               "status": "passed"
             },
             "line": 12,
@@ -278,7 +278,7 @@
           },
           {
             "result": {
-              "duration": 3213796800,
+              "duration": 3109954600,
               "status": "passed"
             },
             "line": 13,
@@ -290,7 +290,7 @@
           },
           {
             "result": {
-              "duration": 747118700,
+              "duration": 629029400,
               "status": "passed"
             },
             "line": 14,
@@ -307,6 +307,518 @@
     "description": "",
     "id": "free-crm-contact-page-functionality",
     "keyword": "Feature",
-    "uri": "D:/Practise/CucumberBDD/src/main/java/Features/Contact.feature"
+    "uri": "src/main/java/Features/Contact.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Verify create new deal functionality",
+        "description": "",
+        "id": "free-crm-deals-page-functionality;verify-create-new-deal-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18435258300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "loginStepDefinition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10008670800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Cogmento CRM",
+            "match": {
+              "location": "loginStepDefinition.login_page_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 362612000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"vighnaharta.rupesh@gmail.com\" and \"rudra@1911\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vighnaharta.rupesh@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "rudra@1911",
+                  "offset": 48
+                }
+              ],
+              "location": "loginStepDefinition.enter_login_credentials(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20142698600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "loginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66758300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "loginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5116675300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on Deals option from options",
+            "match": {
+              "location": "loginStepDefinition.click_on_Deals_Option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5185037200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on New button to create deal",
+            "match": {
+              "location": "loginStepDefinition.click_on_new_button_to_create_new_deal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5307828100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters deals details \"Test1\" and \"50\" and \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test1",
+                  "offset": 27
+                },
+                {
+                  "val": "50",
+                  "offset": 39
+                },
+                {
+                  "val": "10",
+                  "offset": 48
+                }
+              ],
+              "location": "loginStepDefinition.enter_new_deals_details(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3123040100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on Save button",
+            "match": {
+              "location": "loginStepDefinition.click_on_Save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 694086000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user close browser",
+            "match": {
+              "location": "loginStepDefinition.user_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verify create new deal functionality",
+        "description": "",
+        "id": "free-crm-deals-page-functionality;verify-create-new-deal-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7310616700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "loginStepDefinition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10009536400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Cogmento CRM",
+            "match": {
+              "location": "loginStepDefinition.login_page_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 346415700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"vighnaharta.rupesh@gmail.com\" and \"rudra@1911\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vighnaharta.rupesh@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "rudra@1911",
+                  "offset": 48
+                }
+              ],
+              "location": "loginStepDefinition.enter_login_credentials(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20083935900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "loginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189959700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "loginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5187375300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on Deals option from options",
+            "match": {
+              "location": "loginStepDefinition.click_on_Deals_Option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5283965300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on New button to create deal",
+            "match": {
+              "location": "loginStepDefinition.click_on_new_button_to_create_new_deal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5379941700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters deals details \"Test2\" and \"60\" and \"35\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test2",
+                  "offset": 27
+                },
+                {
+                  "val": "60",
+                  "offset": 39
+                },
+                {
+                  "val": "35",
+                  "offset": 48
+                }
+              ],
+              "location": "loginStepDefinition.enter_new_deals_details(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3193553900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on Save button",
+            "match": {
+              "location": "loginStepDefinition.click_on_Save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 697851100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user close browser",
+            "match": {
+              "location": "loginStepDefinition.user_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Deals Page Functionality",
+    "description": "",
+    "id": "free-crm-deals-page-functionality",
+    "keyword": "Feature",
+    "uri": "src/main/java/Features/Deals.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 28,
+        "name": "Verify Free CRM Login Page",
+        "description": "",
+        "id": "free-crm-login-feature;verify-free-crm-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8195797600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "loginStepDefinition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10014730300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "title of login page is Cogmento CRM",
+            "match": {
+              "location": "loginStepDefinition.login_page_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490907700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters \"vighnaharta.rupesh@gmail.com\" and \"rudra@1911\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vighnaharta.rupesh@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "rudra@1911",
+                  "offset": 48
+                }
+              ],
+              "location": "loginStepDefinition.enter_login_credentials(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20185051800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "loginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83190900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user is on home page",
+            "match": {
+              "location": "loginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 629539800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user close browser",
+            "match": {
+              "location": "loginStepDefinition.user_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Verify Free CRM Login Page",
+        "description": "",
+        "id": "free-crm-login-feature;verify-free-crm-login-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18755811900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "loginStepDefinition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10010709400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "title of login page is Cogmento CRM",
+            "match": {
+              "location": "loginStepDefinition.login_page_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 307260300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters \"skdfbsdfb@sdfbfs.com\" and \"reset@asd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "skdfbsdfb@sdfbfs.com",
+                  "offset": 13
+                },
+                {
+                  "val": "reset@asd",
+                  "offset": 40
+                }
+              ],
+              "location": "loginStepDefinition.enter_login_credentials(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20119812600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "loginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@class\u003d\u0027user-display\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.149)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.5.3\u0027, revision: \u0027a88d25fe6b\u0027, time: \u00272017-08-29T12:42:44.417Z\u0027\nSystem info: host: \u0027LAPTOP-JF89UMLV\u0027, ip: \u0027192.168.0.104\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d79.0.3945.16 (93fcc21110c10dbbd49bbff8f472335360e31d05-refs/branch-heads/3945@{#262}), userDataDir\u003dC:\\Users\\RUPESH~1\\AppData\\Local\\Temp\\scoped_dir22348_1718800702}, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dXP, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:64090}, acceptInsecureCerts\u003dfalse, browserVersion\u003d80.0.3987.149, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dXP, setWindowRect\u003dtrue}]\nSession ID: ae27bd40a4b862f4dc527ce236328267\n*** Element info: {Using\u003dxpath, value\u003d//span[@class\u003d\u0027user-display\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)\r\n\tat stepDefinition.loginStepDefinition.user_is_on_home_page(loginStepDefinition.java:56)\r\n\tat ✽.user is on home page(src/main/java/Features/Login.feature:23)\r\n",
+              "duration": 189212600,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "user is on home page",
+            "match": {
+              "location": "loginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user close browser",
+            "match": {
+              "location": "loginStepDefinition.user_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "src/main/java/Features/Login.feature"
   }
 ]
